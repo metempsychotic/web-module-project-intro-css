@@ -57,7 +57,7 @@ body {
 
 h1 {
   font-family: 'Chelsea Market', cursive;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 nav {
@@ -90,22 +90,28 @@ a {
   background: #FFCD69;
 }
 
-.welcome {
+header {
   display: inline-block;
-  text-align: center;
+  width: 90%;
 }
 
 header img {
   height: 20%;
   width: 20%;
   border-radius: 50%;
+  margin: 0;
 }
 
-.welcome-text {
-  width: 50%;
+.welcome {
   text-align: center;
 }
 
-.summary {
-  padding: 5%;
+.welcome-text {
+  text-align: center;
+  width: 50%;
 }
+
+
+
+
+
